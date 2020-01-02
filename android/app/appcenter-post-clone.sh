@@ -18,7 +18,7 @@ flutter doctor
 echo "Installed flutter to `pwd`/flutter"
 
 # build APK
-flutter build apk --release
+flutter build apk --release -v
 
 # if you need build bundle (AAB) in addition to your APK, uncomment line below and last line of this script.
 #flutter build appbundle
