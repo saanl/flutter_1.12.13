@@ -19,7 +19,9 @@ echo "Installed flutter to `pwd`/flutter"
 
 # build APK
 echo $APPCENTER_SOURCE_DIRECTORY
-chmod +X $APPCENTER_SOURCE_DIRECTORY/android/gradlew
+chmod a+rx $APPCENTER_SOURCE_DIRECTORY/android/gradlew
+
+
 flutter build apk --release -v
 
 # if you need build bundle (AAB) in addition to your APK, uncomment line below and last line of this script.
