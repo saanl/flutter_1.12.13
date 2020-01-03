@@ -18,6 +18,7 @@ flutter doctor
 echo "Installed flutter to `pwd`/flutter"
 
 # build APK
+echo $APPCENTER_SOURCE_DIRECTORY
 chmod +X $pwd/android/gradlew
 flutter build apk --release -v
 
